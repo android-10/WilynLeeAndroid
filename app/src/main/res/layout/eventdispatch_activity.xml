@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class="DispatchBinding" />
+
+    <com.example.wilynleeandroid.event.OneGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.example.wilynleeandroid.event.OneView
+            android:id="@+id/view1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="66dp"
+            android:background="#E91E63" />
+
+        <com.example.wilynleeandroid.event.OneView
+            android:id="@+id/view2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00BCD4" />
+    </com.example.wilynleeandroid.event.OneGroup>
+</layout>
